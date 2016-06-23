@@ -1,0 +1,50 @@
+.container-fluid {
+	background-color: #000000;
+}
+.container-fluid h1 {
+	text-align: left;
+	color: #66ffff;
+	width: 26%;
+	margin-top: 70px;
+	margin-left: 11%;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 50px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.container-fluid h1:hover {
+	text-shadow: 0px 0 15px #fff;
+}
+
+
+
+#shoes img {
+	margin-top: 30px;
+}
+
+
+.col-sm-3 {
+	position:relative;
+	overflow:hidden;
+}
+.hoverAction {
+	width:278.25px;
+	height:278.25px;
+	position:absolute;
+	top:30px;
+	left:15px;
+	margin-top:-278.25px;
+	color:  #66ffff;
+	background-color: rgba(0,0,0,0.75);
+	padding: 90px;
+
+}
+.col-sm-3:hover .hoverAction {
+	margin-top:0;
+}
+
+.hoverAction {
+   -webkit-transition: all 0.7s ease;
+   transition: all 0.7s ease;
+}
