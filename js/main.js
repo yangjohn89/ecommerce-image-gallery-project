@@ -55,9 +55,9 @@ for (var i = 0; i < shoesArray.length; i++) {
 	var newCol = document.createElement("div")
 	var newImage = document.createElement("img")
 	var newHover = document.createElement("div")
-	var newPrice = document.createElement("h5")
-	var newSize = document.createElement("h5")
-	var newStock = document.createElement("h5")
+	var newPrice = document.createElement("h4")
+	var newSize = document.createElement("h4")
+	var newStock = document.createElement("h4")
 	var newButton = document.createElement("button")
 
 	
